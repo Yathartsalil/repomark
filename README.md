@@ -11,7 +11,7 @@
 <p align="center">
 
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?logo=node.js\&logoColor=white)](https://nodejs.org/)
-[![CI](https://github.com/yourname/repomark/actions/workflows/ci.yml/badge.svg)](https://github.com/yourname/repomark/actions)
+[![CI](https://github.com/Yatharthsalil/repomark/actions/workflows/ci.yml/badge.svg)](https://github.com/Yatharthsalil/repomark/actions)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 </p>
@@ -129,7 +129,7 @@ This makes it useful for:
 Clone the repository and install it:
 
 ```bash
-git clone https://github.com/yourname/repomark.git
+git clone https://github.com/Yatharthsalil/repomark.git
 cd repomark
 
 npm install
