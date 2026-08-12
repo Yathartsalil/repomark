@@ -1,0 +1,17 @@
+{
+  "name": "repomark",
+  "version": "1.0.0",
+  "description": "Pack a Git repository into clean Markdown for LLM context windows.",
+  "type": "module",
+  "bin": { "repomark": "./dist/cli.js" },
+  "files": ["dist"],
+  "engines": { "node": ">=20" },
+  "scripts": { "build": "tsup", "test": "vitest run", "test:watch": "vitest", "prepublishOnly": "npm test && npm run build" },
+  "keywords": ["cli", "git", "markdown", "llm", "ai", "repository"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/yourname/repomark.git" },
+  "bugs": { "url": "https://github.com/yourname/repomark/issues" },
+  "homepage": "https://github.com/yourname/repomark",
+  "dependencies": { "commander": "^14.0.0", "ignore": "^7.0.5" },
+  "devDependencies": { "@types/node": "^24.0.0", "tsup": "^8.5.0", "typescript": "^5.9.0", "vitest": "^3.2.4" }
+}
